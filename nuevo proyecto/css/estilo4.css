@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background:#000;
+}
+
+#contenedor{
+    width: 700px;
+    height:850px;
+    margin:auto;
+    margin-top: 15px;
+    background:#887951;
+}
+
+header{
+    width: 700px;
+    height: 100px;
+    background: linear-gradient(#887951,#000);
+    background-size: cover;
+   }
+
+.cabecera{
+    width:700px;
+    height:100px;
+    background-size: cover;
+}
+
+
+
+footer{
+    width: 700px;
+    height:35px;
+    background-size: cover;
+    background: linear-gradient(#252c31,#887951);
+    margin:auto;
+}
+
+.icono{
+    width:30px;
+    height:30px;
+    position:relative;
+    left:625px;
+    top: 1px;
+    margin-top:2px;
+}
+
+.icono:hover{
+    box-shadow: 5px 10px 10px #dc143c;
+}
+
+
+nav{
+    width: 700px;
+    height:auto;
+    background: linear-gradient(#000, #887951);
+    
+    }
+    
+    
+
+#menu{
+    list-style:none;
+    font-family:"Lucida Grande", verdana, arial, helvetica, sans-serif;
+    font-size: 16px;
+    display:flex;
+    padding: 5px 7px;
+    
+    
+    
+}
+
+#menu li {
+    margin-bottom: 10px;
+    padding: 0px 16px;
+   
+  }
+
+#menu li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 3px;
+    
+    
+    }
+
+#menu li a:hover{
+    background: #336a6d;
+    color: #cbd234;
+    border: 1px solid #ff0;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+article h2{
+    text-align: center;
+    font-size:30px;
+    font-family: "Lucida Grande", verdana, arial, helvetica, sans-serif;
+    
+    
+}
+
+.albumes{
+    color: #630;
+    text-align: center;
+    float: left;
+    font-family: "Lucida Grande", verdana, arial, helvetica, sans-serif;
+    font-size: 13px;
+   }
+   
+   .album{
+       width: 150px;
+       height: 150px;
+       padding: 15px;
+       
+       margin: 5px;
+   }
+   
+   .album:hover{
+       background: rgba(230,116,3, 0.3);
+       border: 2px #630;
+       border-top-left-radius: 20px;
+       border-top-right-radius: 20px;
+       border-bottom-left-radius: 20px;
+       border-bottom-right-radius: 20px;
+       box-shadow: 5px 5px 5px rgba(0,0,0, .4);
+   }
+
+
+    
+    
